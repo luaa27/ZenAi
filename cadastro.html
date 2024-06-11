@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+   <script src="./cadastro.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="flex justify-center items-center px-16 py-16 bg-stone-100 max-md:px-5">
+        <div class="flex flex-col max-w-full w-[479px]">
+            <h1 class="self-center text-5xl text-cyan-700 max-md:text-4xl">Cadastrar</h1>
+            <h2 class="self-center mt-56 text-4xl text-cyan-700 max-md:mt-10">Criar conta</h2>
+            <div class="flex  justify-center items-end px-16 py-3.5 mt-7 rounded-xl border-cyan-700 border-solid bg-stone-100 border-[5px] max-md:px-5 max-md:max-w-full"
+                role="img">
+                <input class="w-full h-full" type="text" name="" id="nome">
+                <img src="img/image 3.png" alt="" class="aspect-square w-[55px]" />
+            </div>
+            <div class="flex  justify-center items-end px-16 py-2 mt-7 rounded-xl border-cyan-700 border-solid bg-stone-100 border-[5px] max-md:pl-5 max-md:max-w-full"
+                role="img">
+                <input class="w-full h-full" type="text" name="" id="email">
+                <img src="img/image 1.png" alt="" class="max-w-full aspect-[1.49] w-[101px]" />
+            </div>
+            <div class="flex  justify-center items-end px-16 py-3 mt-7 rounded-xl border-cyan-700 border-solid bg-stone-100 border-[5px] max-md:px-5 max-md:max-w-full"
+                role="img">
+                <input class="w-full h-full" type="text" name="" id="senha">
+                <img src="img/image 2.png" alt="" class="aspect-square w-[58px]" />
+            </div>
+            <button id="btn-cadastar" onclick="cadastroUsuario()"
+                    class="justify-center items-center self-center px-16 py-6 mt-5 max-w-full text-2xl text-cyan-800 whitespace-nowrap rounded-xl border-cyan-700 border-solid bg-slate-300 border-[5px] w-[283px] max-md:px-5">
+                    Cadastrar
+                </button>
+        </div>
+    </section>
+</body>
+
+</html>     
